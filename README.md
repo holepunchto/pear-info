@@ -9,7 +9,9 @@ import info from 'pear-info'
 ```
 
 ```js
-function status (info) { console.log(info) }
+function status(info) {
+  console.log(info)
+}
 const link = 'pear://....'
 const stream = info(link, opts)
 stream.on('data', status)
